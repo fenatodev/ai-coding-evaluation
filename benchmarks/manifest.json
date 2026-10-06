@@ -1,0 +1,23 @@
+{
+  "schema": "ai-coding-evaluation/benchmark-manifest/v1",
+  "cases": [
+    {
+      "id": "case_01_authz_boundary",
+      "category": "security-authorization",
+      "expected_severity": "high",
+      "primary_invariant": "a caller cannot read another tenant's object"
+    },
+    {
+      "id": "case_02_concurrent_reservation",
+      "category": "concurrency-state",
+      "expected_severity": "high",
+      "primary_invariant": "successful reservations cannot exceed available units"
+    },
+    {
+      "id": "case_03_falsy_config_refactor",
+      "category": "semantic-regression",
+      "expected_severity": "medium",
+      "primary_invariant": "explicit falsy values are not equivalent to missing values"
+    }
+  ]
+}
