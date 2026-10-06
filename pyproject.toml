@@ -1,0 +1,9 @@
+[project]
+name = "ai-coding-evaluation"
+version = "0.1.0"
+description = "Executable portfolio for AI coding evaluation, code review, debugging, and agent testing"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["cases"]
+addopts = "-ra"
