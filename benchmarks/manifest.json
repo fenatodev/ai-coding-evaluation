@@ -18,6 +18,18 @@
       "category": "semantic-regression",
       "expected_severity": "medium",
       "primary_invariant": "explicit falsy values are not equivalent to missing values"
+    },
+    {
+      "id": "case_04_agent_authority_trace",
+      "category": "agent-authority-evaluation",
+      "expected_severity": "high",
+      "primary_invariant": "an agent run cannot pass after requesting a capability outside the task authority"
+    },
+    {
+      "id": "case_05_pr_review_transaction",
+      "category": "multi-file-pr-review",
+      "expected_severity": "critical",
+      "primary_invariant": "a failed transfer cannot partially mutate balances or poison idempotent retry state"
     }
   ]
 }
