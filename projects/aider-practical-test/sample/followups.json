@@ -1,0 +1,34 @@
+[
+  {
+    "id": "abc123def456",
+    "customer": "Alice Johnson",
+    "channel": "email",
+    "due_date": "2024-02-15",
+    "status": "pending",
+    "note": "Follow up on invoice payment"
+  },
+  {
+    "id": "def456ghi789",
+    "customer": "Bob Smith",
+    "channel": "whatsapp",
+    "due_date": "2024-02-20",
+    "status": "pending",
+    "note": "Confirm meeting time"
+  },
+  {
+    "id": "ghi789jkl012",
+    "customer": "Charlie Brown",
+    "channel": "phone",
+    "due_date": "2024-02-10",
+    "status": "done",
+    "note": "Callback scheduled"
+  },
+  {
+    "id": "jkl012mno345",
+    "customer": "Diana Prince",
+    "channel": "email",
+    "due_date": "2024-02-25",
+    "status": "pending",
+    "note": "Send updated proposal"
+  }
+]
